@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+<body>
+
+<header class="bg-blue-500 py-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6">
+        <!-- Logo Section -->
+        <div class="flex items-center">
+            <img src="https://via.placeholder.com/40" alt="Logo" class="w-10 h-10 mr-3">
+            <span class="text-white text-2xl font-semibold">MyBrand</span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
+                <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
+                <li><a href="#" class="text-white hover:text-gray-200">Services</a></li>
+                <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hamburger Icon (For mobile) -->
+        <button class="lg:hidden text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </div>
+</header>
+<section id="banner">
+
+    <div class="bg-gray-500 text-white text-center py-10">
+        <h1 class="text-3xl font-semibold">Welcome to Our Website!</h1>
+        <p class="text-lg mt-2">We are glad to have you here. Explore and enjoy!</p>
+        <button class="bg-blue-500 my-5 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+            Click Me
+        </button>
+
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300" alt="Image 1" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">Card Title 1</h3>
+                <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec leo dapibus venenatis.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300" alt="Image 2" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">Card Title 2</h3>
+                <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec leo dapibus venenatis.</p>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
